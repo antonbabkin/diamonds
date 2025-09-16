@@ -1,0 +1,17 @@
+---
+title: "shine"
+format: html
+---
+
+```{r}
+library(ggplot2)
+ggplot(diamonds) +
+  geom_point(aes(carat, depth)) +
+  labs(title = Sys.time())
+
+```
+
+```{r}
+usethis::use_github_action(url = "https://github.com/posit-conf-2025/r-production/blob/main/1-render-qmd.yaml", save_as = "render.yml")
+```
+

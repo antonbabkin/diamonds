@@ -1,0 +1,12 @@
+Package: pubdata
+Title: posit-conf-2025 diamonds
+Version: 0.0.0.1
+Authors@R: 
+    person("Anton", "Babkin", , "babkin@wisc.edu", role = c("aut", "cre"))
+Description: Github actions exercise with diamonds
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+  ggplot2
